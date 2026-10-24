@@ -1,5 +1,9 @@
 # Readme
 
+> **Fork notice — independent reference copy.** This repository is a fork of [OpenAI's `openai/math`](https://github.com/openai/math), which is the authoritative source for the manuscripts, Lean artifacts, corrections and release history. The material below is authored and maintained upstream by OpenAI; this fork does not claim authorship, independent verification or endorsement.
+>
+> **Synchronization:** This fork has no guaranteed automatic synchronization or fixed update schedule. Its contents may become outdated. Consult [the upstream repository](https://github.com/openai/math) for the latest versions, verification status and citation information.
+
 This repository contains mathematical manuscripts and supporting proof artifacts produced by an internal OpenAI model. 
 
 As part of model development, we evaluate our models on open research problems. We expanded these evaluations after performance on our existing mathematical evaluations saturated. Some outputs build upon earlier results produced by the models.
