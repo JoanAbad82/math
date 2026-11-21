@@ -1,0 +1,28 @@
+{
+  "schema": "webmates.E3-A02.bilingual-overlay-manifest.v1",
+  "unit_id": "E3-A02",
+  "source_beta_zip_sha256": "8bf06e7cad300620c33150869f123332051950b4561901efcb3b526a09cfc46a",
+  "source_gate_zip_sha256": "2efddefed15620f29f85f2489173193c4ebfb6b1fa962099bcee8d4a035c218f",
+  "canonical": {
+    "lesson_doc_sha256": "8b6d4cd0cccf8f5087d438dec6fa411dad05c68f1349be846ea941e94e8b450e",
+    "exercise_bank_sha256": "6de1a97ad3a3c331bb4ad3abc0ec0dbccffd8a3f3aea71c2a8e52e358f19d2a6"
+  },
+  "translation_status": "draft_unreviewed",
+  "overlays": {
+    "lesson_and_exercises": "E3-A02.v1.json",
+    "choice_labels": "E3-A02.choices.v1.json"
+  },
+  "patched_math_sign_errors": 1,
+  "patched_spaced_exponents": {
+    "x ²": 4,
+    "cm ²": 2,
+    "activities prompt": 2
+  },
+  "human_approval": 0,
+  "overlays_sha256": {
+    "E3-A02.v1.json": "f63fa6069a3e66a1ecc9f8cf9796ed8d1ae94b0d73d8596770b757f917e54f4c",
+    "E3-A02.choices.v1.json": "9bb6745736b9a85a5cc179f37b2435fb8551cbe24bbcfa5725d7591d2a219eaf",
+    "E3-A02.second-hints.v1.json": "e5b2410cf1f0656e2469aff1004dbf07aa3b980a25721fe19ebe8920d3c18b68",
+    "ui-E3-A02.v1.json": "78fc4dcc2b54c44c1ae8f8a17d9da22fb6e3ebd6264debf1493c91adf262d650"
+  }
+}

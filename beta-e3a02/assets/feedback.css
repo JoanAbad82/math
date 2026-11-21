@@ -1,0 +1,16 @@
+
+.feedback-shell{max-width:840px;margin:0 auto;padding:25px 20px 55px}
+.feedback-shell h1{line-height:1.2}
+.feedback-form{display:grid;gap:15px;margin:24px 0;padding:22px;border:1px solid #6ba8a4;border-radius:16px;background:#0e282c;color:#fafafa}
+.feedback-form label{display:grid;gap:6px;font-weight:650}
+.feedback-form select,.feedback-form input,.feedback-form textarea{font:inherit;min-height:44px;padding:12px;color:#fff;background:#17383d;border:1px solid #82aeb0;border-radius:8px;width:100%;box-sizing:border-box}
+.feedback-form textarea{min-height:145px;resize:vertical}
+.feedback-actions{display:flex;flex-wrap:wrap;gap:10px}
+.feedback-actions button{padding:12px 17px;min-height:44px;border:2px solid #9de8dd;border-radius:8px;background:#17675f;color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.feedback-actions button:hover{background:#235b55}
+.feedback-actions button:focus-visible,.feedback-form :focus-visible,.feedback-links a:focus-visible{outline:3px solid #ffcc64;outline-offset:3px}
+.feedback-status{min-height:1.5em}
+.feedback-links{display:grid;gap:10px;margin:20px 0}
+.feedback-links a{color:#9df0df;text-decoration:underline}
+.feedback-disclosure{border-left:4px solid #6e9b99;padding:5px 14px;margin:20px 0}
+@media(max-width:480px){.feedback-shell{padding:16px 13px}.feedback-form{padding:14px}}

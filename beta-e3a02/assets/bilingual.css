@@ -1,0 +1,27 @@
+
+/* Isolated E3-A02 bilingual selector: accessible 44px target, no hidden language control. */
+.locale-picker{
+ display:flex;align-items:center;gap:8px;color:#e1f7f3;
+ font-size:.79rem;font-weight:730;white-space:nowrap
+}
+.locale-picker select{
+ min-height:44px;min-width:98px;max-width:132px;
+ border-radius:10px;border:1.5px solid #82ada7;
+ background:#12332e;color:#f5fff7;font:inherit;font-size:.9rem;
+ padding:7px 10px;cursor:pointer
+}
+.locale-picker select:focus-visible{
+ outline:3px solid #eaa150;outline-offset:3px
+}
+@media (max-width:900px){
+ .locale-picker{grid-row:3;grid-column:1/-1;justify-self:start;
+  padding-top:2px;white-space:normal}
+}
+@media (min-width:901px) and (max-width:1200px){
+ .header-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 12px;padding:12px 0 10px}
+ .header-actions{display:contents}
+ .brand{grid-row:1;grid-column:1}
+ .theme-toggle{grid-row:1;grid-column:2}
+ .topbar nav{grid-row:2;grid-column:1/-1;display:flex;flex-wrap:wrap;gap:7px}
+ .locale-picker{grid-row:3;grid-column:1/-1;justify-self:start}
+}

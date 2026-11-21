@@ -1,0 +1,34 @@
+{
+  "schema": "webmates.ca-ES.choice-labels.v1",
+  "version": "1.0.0",
+  "locale": "ca-ES",
+  "unit_id": "E3-A02",
+  "translation_status": "draft_unreviewed",
+  "source_bank_sha256": "6de1a97ad3a3c331bb4ad3abc0ec0dbccffd8a3f3aea71c2a8e52e358f19d2a6",
+  "activities": {
+    "F1-E3-A02-L01-04": {
+      "source_choices": [
+        "Infinitas",
+        "Una",
+        "Ninguna"
+      ],
+      "labels": [
+        "Infinites",
+        "Una",
+        "Cap"
+      ]
+    },
+    "F1-E3-A02-L02-05": {
+      "source_choices": [
+        "Dos raíces: −3 y 3",
+        "Una raíz: 0",
+        "No tiene raíces reales"
+      ],
+      "labels": [
+        "Dues arrels: −3 i 3",
+        "Una arrel: 0",
+        "No té arrels reals"
+      ]
+    }
+  }
+}
